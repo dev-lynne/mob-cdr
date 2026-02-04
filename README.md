@@ -36,15 +36,6 @@ Created aggregate columns
 - The dataset is from Milan, Italy
 - Italy has country code of 39
 
-
-### Decision 4: Peak Hour Identification
-**Choice:** Grid-level peak hours aggregated to find most common  
-**Alternative Considered:** Simple overall hourly maximum  
-**Justification:**
-- More representative of spatial patterns
-- Accounts for geographic heterogeneity
-- Reveals common behavioral patterns across different areas
-
 ## Summary of Findings
 
 - **Total Records of dataset:** 6,564,031
@@ -93,4 +84,5 @@ Created aggregate columns
 **Data Source:** https://www.kaggle.com/datasets/marcodena/mobile-phone-activity
 
 **Github link:** https://github.com/dev-lynne/mob-cdr/
+
 
