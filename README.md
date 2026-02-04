@@ -5,8 +5,8 @@ I loaded and analyzed 3 SMS/call/internet activity data (sms-call-internet-mi-20
 
 ### 1: Loading and exploring the dataset
 - **Shape:** 6,564,031 rows × 8 columns
-- **Each representing a single hour of activity in one grid cell**
-- **Nearly 4 million missing values** to handle
+- 10,000 unique grid squares
+- 21,137,195 missing values
 
 ### 2: Handling  Missing Data 
 **Strategy:**
@@ -66,9 +66,9 @@ Created aggregate columns
     - Max : 5,801,570.12
 
 **Daytime vs Nighttime total activity (%):**
-    - **Daytime Activity:**  73.55%
-    - **Nighttime Activity:** ~26.45% 
-    - More daytime than nightime activity
+- **Daytime Activity:**  73.55%
+- **Nighttime Activity:** ~26.45%
+-  More daytime than nightime activity
 
 
 **Domestic vs Int'l Calls:**
@@ -93,3 +93,4 @@ Created aggregate columns
 **Data Source:** https://www.kaggle.com/datasets/marcodena/mobile-phone-activity
 
 **Github link:** https://github.com/dev-lynne/mob-cdr/
+
