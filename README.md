@@ -2,8 +2,6 @@
 
 I loaded and analyzed 3 SMS/call/internet activity data (sms-call-internet-mi-2013-11-02.csv, sms-call-internet-mi-2013-11-04.csv, sms-call-internet-mi-2013-11-06.csv). I then combined them. I started by loading and preparing the data, then cleaned the data by handling the missing data by replacing the missing values with the mean. I also added some columns to the dataset for analysis. And finally, I did the analysis and some visualizations.
 
-**Data Source:** [Kaggle - Mobile Phone Activity Dataset](https://www.kaggle.com/datasets/marcodena/mobile-phone-activity)  
-**Research Paper:** [Nature Scientific Data](http://go.nature.com/2fcOX5E)
 
 ### 1: Loading and exploring the dataset
 - **Shape:** 6,564,031 rows × 8 columns
@@ -19,10 +17,10 @@ I loaded and analyzed 3 SMS/call/internet activity data (sms-call-internet-mi-20
 
 ### 3. Feature Engineering
 Created aggregate columns
-- `total_sms` = smsin + smsout
-- `total_calls` = callin + callout
-- `total_internet` = internet activity
-- `total_activity` = sum of all activities
+- total_sms = smsin + smsout
+- total_calls = callin + callout
+- total_internet = internet activity
+- total_activity = total_sms + total_calls + total_internet
 
 ## Key Decisions
 
@@ -91,3 +89,7 @@ Created aggregate columns
 **SMS vs Calls at Grid Level:**
 - **Correlation Coefficient:** Strong positive correlation (0.9862)
 - Areas with high SMS activity also have high call activity
+
+**Data Source:** https://www.kaggle.com/datasets/marcodena/mobile-phone-activity
+
+**Github link:** https://github.com/dev-lynne/mob-cdr/
