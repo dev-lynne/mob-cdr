@@ -25,14 +25,12 @@ Created aggregate columns
 ## Key Decisions
 
 ### Decision 1: Handling Missign Values
-**Choice:** Mean imputation for all activity columns  
-**Justification:**
+Mean imputation for all activity columns because:
 - Mean preserves the central tendency of the distribution
 - More conservative than zero-filling, which would underestimate activity
 
 ### Decision 2: Domestic vs International Classification
-**Choice:** Italy (country code 39) = Domestic, all others = International  
-**Justification:**
+Italy (country code 39) = Domestic, all others = International  
 - The dataset is from Milan, Italy
 - Italy has country code of 39
 
@@ -84,5 +82,6 @@ Created aggregate columns
 **Data Source:** https://www.kaggle.com/datasets/marcodena/mobile-phone-activity
 
 **Github link:** https://github.com/dev-lynne/mob-cdr/
+
 
 
